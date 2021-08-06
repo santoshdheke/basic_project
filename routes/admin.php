@@ -17,4 +17,4 @@ Route::get('dashboard', 'DashboardController@index')->name('dashboard');
 Route::post('logout', 'LoginController@logout')->name('logout');
 
 Route::resource('blog-category', 'BlogCategoryController');
-Route::resource('blog', 'Blog/media/santosh/ee60e00f-465b-405a-8ad7-c6e7a715243a/var/www/html/work/laravel/santosh/basic_projectController');
+Route::resource('blog', 'BlogController');
